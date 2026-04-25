@@ -8,11 +8,11 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 
 ## Tools & Setup
 
--Wazuh (manager on Ubuntu VM)
--VMware Workstation (bridge adapter)
--Windows 11 as monitored endpoint
--Atomic Red Team (see MITRE ATT&CK) 
--Draw.io 
+- Wazuh (manager on Ubuntu VM)
+- VMware Workstation (bridge adapter)
+- Windows 11 as monitored endpoint
+- Atomic Red Team (see MITRE ATT&CK) 
+- Draw.io
 
 
 
