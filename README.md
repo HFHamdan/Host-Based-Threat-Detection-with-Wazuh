@@ -1,5 +1,5 @@
 # Host-Based-IDS-Wazuh
-
+![img alt] (Wazuh.png
 # Overview
 What the project is,deploying a Host-Based IDS to monitor a Windows machine for suspicious activity and demonstrate SOC alert analysis.
 
