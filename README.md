@@ -11,7 +11,11 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 -Wazuh (manager on Ubuntu VM)
 -VMware Workstation (bridge adapter)
 -Windows 11 as monitored endpoint
-<(maybe other tools to generate alerts)>
+-Atomic Red Team (see MITRE ATT&CK) 
+-Draw.io 
+
+
+
 
 
 # Simulated Threat Scenarios
