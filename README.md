@@ -16,7 +16,13 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 
 ## Lab Architecture 
 
-## Installation & Configuration 
+# *diagram showcasing the Lab goes here*
+
+- Wazuh manager deployed on Ubuntu VM (VMware Workstation, bridge adapter)
+- Windows 11 endpoint configured as monitored agent
+- Agent deployment handled via WinSCP due to clipboard limitations between host and VM
+- Network connectivity verified before agent activation
+
 
 # Simulated Threat Scenarios
 
