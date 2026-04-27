@@ -14,14 +14,17 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 - Atomic Red Team (see MITRE ATT&CK) 
 - Draw.io
 
+## Lab Architecture 
 
-
-
+## Installation & Configuration 
 
 # Simulated Threat Scenarios
 
+- what
+- which Atomic Red Tech. (T1110)
+- screenshots
 
-# Alert Analysis
+#@ Alert Analysis && Custom Detection Rules
 
 Screenshots of Wazuh dashboard here.... 
 
