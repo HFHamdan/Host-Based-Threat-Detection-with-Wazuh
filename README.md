@@ -24,8 +24,8 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 - which Atomic Red Tech. (T1110)
 - screenshots
 
-#@ Alert Analysis && Custom Detection Rules
+## Alert Analysis && Custom Detection Rules
 
-Screenshots of Wazuh dashboard here.... 
+# SOC Incident Report should go here 
 
 # make sure to redact PI
