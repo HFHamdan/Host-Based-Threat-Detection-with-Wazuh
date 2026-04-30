@@ -17,12 +17,13 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 ## Lab Architecture 
 
 # *diagram showcasing the Lab goes here*
-/** [ Devices/Nodes, Ubuntu VM box — labeled "Wazuh Manager"
+<!-- [ Devices/Nodes:
+Ubuntu VM box — labeled "Wazuh Manager"
 Windows 11 box — labeled "Monitored Endpoint (Wazuh Agent)"
 
 Connections:
 
-An arrow between them labeled "Agent Communication (TCP 1514)"
+An arrow between them labeled "Agent Communication (TCP 1514)" 
 Another arrow labeled "Dashboard Access (HTTPS 443)"
 
 Access point:
@@ -32,7 +33,7 @@ Your Windows 11 machine accessing the Wazuh dashboard via browser — label it "
 Optional but nice:
 
 A small Atomic Red Team logo or label on the Windows 11 box indicating that's where simulated attacks originate
-VMware Workstation as the outer container/boundary around the Ubuntu VM ] **/
+VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 
 
 - Wazuh manager deployed on Ubuntu VM (VMware Workstation, bridge adapter)
