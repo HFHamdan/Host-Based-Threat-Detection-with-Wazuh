@@ -1,4 +1,4 @@
-# Host-Based-IDS-Wazuh
+# Host-Based IDS Wazuh
 
 ![img alt](https://github.com/HFHamdan/Host-Based-IDS-Wazuh/blob/main/Wazuh.png)
 
