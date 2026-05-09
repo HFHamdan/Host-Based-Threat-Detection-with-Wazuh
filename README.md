@@ -16,7 +16,7 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 
 ## Lab Architecture 
 
-# *diagram showcasing the Lab goes here*
+! [imag_alt ] ()
 <!-- [ Devices/Nodes:
 Ubuntu VM box — labeled "Wazuh Manager"
 Windows 11 box — labeled "Monitored Endpoint (Wazuh Agent)"
@@ -28,7 +28,7 @@ Another arrow labeled "Dashboard Access (HTTPS 443)"
 
 Access point:
 
-Your Windows 11 machine accessing the Wazuh dashboard via browser — label it "Web UI Access"
+Windows 11 machine accessing the Wazuh dashboard via browser — label it "Web UI Access"
 
 Optional but nice:
 
