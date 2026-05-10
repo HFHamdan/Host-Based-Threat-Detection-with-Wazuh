@@ -16,7 +16,7 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 
 ## Lab Architecture 
 
-![imag_alt](https://github.com/HFHamdan/Host-Based-IDS-Wazuh/blob/main/Host_Based_IDS.drawio.png)
+![imag_alt]()
 <!-- [ Devices/Nodes:
 Ubuntu VM box — labeled "Wazuh Manager"
 Windows 11 box — labeled "Monitored Endpoint (Wazuh Agent)"
