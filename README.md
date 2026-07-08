@@ -44,9 +44,16 @@ VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 
 # Simulated Threat Scenarios
 
-- what
-- which Atomic Red Tech. (T1110)
-- screenshots
+-T1059 – Command and Scripting Interpreter (PowerShell specifically, T1059.001)
+Extremely common in real attacks and real SOC alerts. Simulate a suspicious PowerShell execution (e.g., encoded command).
+-T1053 – Scheduled Task/Job
+Classic persistence technique. Very visible in Windows Event Logs (Event ID 4698), which Wazuh picks up cleanly.
+-T1003 – OS Credential Dumping (specifically LSASS access attempts)
+High-value alert type — this is the kind of thing SOC analysts get paged for.
+-T1082 – System Information Discovery
+Low-noise, easy to simulate, good for "low severity but worth logging" alerts — not critical.
+-T1112 – Modify Registry (optional 5th)
+Good  to show persistence/defense evasion coverage.
 
 ## Alert Analysis && Custom Detection Rules
 
