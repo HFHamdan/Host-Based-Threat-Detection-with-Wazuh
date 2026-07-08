@@ -49,9 +49,9 @@ Extremely common in real attacks and real SOC alerts. Simulate a suspicious Powe
 - T1053 – Scheduled Task/Job
 Classic persistence technique. Very visible in Windows Event Logs (Event ID 4698), which Wazuh picks up cleanly.
 - T1003 – OS Credential Dumping (specifically LSASS access attempts)
-High-value alert type — this is the kind of thing SOC analysts get paged for.
+High-value alert type  this is the kind of thing SOC analysts get paged for.
 - T1082 – System Information Discovery
-Low-noise, easy to simulate, good for "low severity but worth logging" alerts — not critical.
+Low-noise, easy to simulate, good for "low severity but worth logging" alerts, not critical.
 - T1112 – Modify Registry (optional 5th)
 Good  to show persistence/defense evasion coverage.
 
