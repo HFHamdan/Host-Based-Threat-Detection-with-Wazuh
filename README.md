@@ -37,7 +37,7 @@ VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 
 
 - Wazuh manager deployed on Ubuntu VM (VMware Workstation, bridge adapter)
-- Windows 11 endpoint configured as monitored agent
+- Windows 11 VM configured as monitored agent
 - Agent deployment handled via WinSCP due to clipboard limitations between host and VM
 - Network connectivity verified before agent activation
 
@@ -48,10 +48,10 @@ VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 Extremely common in real attacks and real SOC alerts. Simulate a suspicious PowerShell execution (e.g., encoded command).
 - T1053 – Scheduled Task/Job
 Classic persistence technique. Very visible in Windows Event Logs (Event ID 4698), which Wazuh picks up cleanly.
-- T1003 – OS Credential Dumping (specifically LSASS access attempts)
+- T1003 – OS Credential Dumping
 High-value alert type  this is the kind of thing SOC analysts get paged for.
 - T1082 – System Information Discovery
 Low-noise, easy to simulate, good for "low severity but worth logging" alerts, not critical.
-- T1112 – Modify Registry (optional 5th)
+- T1112 – Modify Registry
 Good  to show persistence/defense evasion coverage.
 
