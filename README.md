@@ -55,8 +55,3 @@ Low-noise, easy to simulate, good for "low severity but worth logging" alerts, n
 - T1112 – Modify Registry (optional 5th)
 Good  to show persistence/defense evasion coverage.
 
-## Alert Analysis && Custom Detection Rules
-
-# SOC Incident Report should go here 
-
-# make sure to redact PI
