@@ -16,7 +16,7 @@ This project demonstrates end-to-end threat simulation, telemetry pipeline engin
 
 ## Lab Architecture 
 
-'''bash
+```bash 
 +-----------------------------------------------------------------------+
 |                             VIRTUAL LAB                               |
 |                                                                       |
@@ -28,7 +28,7 @@ This project demonstrates end-to-end threat simulation, telemetry pipeline engin
 |   |  - Alerting & Indexing|               |  - Invoke-AtomicRed   |   |
 |   +-----------------------+               +-----------------------+   |
 +-----------------------------------------------------------------------+
-
+```
 <!--![imag_alt](https://github.com/HFHamdan/Host-Based-IDS-Wazuh/blob/main/IDS_Arch.drawio.png) -->
 <!-- [ Devices/Nodes:
 Ubuntu VM box — labeled "Wazuh Manager"
@@ -48,11 +48,14 @@ Optional but nice:
 A small Atomic Red Team logo or label on the Windows 11 box indicating that's where simulated attacks originate
 VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 
+- SIEM / Log Aggregator: Wazuh Manager on Linux VM.
+  
+- Target Host: Windows VM isolated with snapshots enabled.
 
-- Wazuh manager deployed on Ubuntu VM (VMware Workstation, bridge adapter)
-- Windows 11 VM configured as monitored agent
-- Agent deployment handled via WinSCP due to clipboard limitations between host and VM
-- Network connectivity verified before agent activation
+- Telemetry Source: Microsoft Sysmon (System Monitor) + Windows Event Logs.
+
+- Adversary Simulation: Atomic Red Team (Invoke-AtomicRedTeam).
+
 
 
 # Simulated Threat Scenarios
