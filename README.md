@@ -16,7 +16,7 @@ This project demonstrates end-to-end threat simulation, telemetry pipeline engin
 
 ## Lab Architecture 
 
----bash
+'''bash
 +-----------------------------------------------------------------------+
 |                             VIRTUAL LAB                               |
 |                                                                       |
