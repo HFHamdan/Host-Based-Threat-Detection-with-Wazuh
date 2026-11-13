@@ -3,7 +3,7 @@
 ![img alt](https://github.com/HFHamdan/Host-Based-IDS-Wazuh/blob/main/Wazuh.png)
 
 # Overview
-What the project is,deploying a Host-Based IDS to monitor a Windows machine for suspicious activity and demonstrate SOC alert analysis.
+This project demonstrates end-to-end threat simulation, telemetry pipeline engineering, and custom detection engineering using Wazuh SIEM, Sysmon, and Atomic Red Team. The goal is to simulate realistic adversary behavior aligned with the MITRE ATT&CK framework within an isolated lab environment, capture raw host telemetry, and build custom XML detection logic to alert on malicious activity.
 
 
 ## Tools & Setup
@@ -16,7 +16,20 @@ What the project is,deploying a Host-Based IDS to monitor a Windows machine for 
 
 ## Lab Architecture 
 
-![imag_alt](https://github.com/HFHamdan/Host-Based-IDS-Wazuh/blob/main/IDS_Arch.drawio.png)
+---bash
++-----------------------------------------------------------------------+
+|                             VIRTUAL LAB                               |
+|                                                                       |
+|   +-----------------------+               +-----------------------+   |
+|   |    Wazuh Manager      |               |     Windows Target    |   |
+|   |     (Ubuntu VM)       |<--------------|      (Windows VM)     |   |
+|   |  - Centralized SIEM   |  Port 1514/    |  - Wazuh Agent        |   |
+|   |  - Custom XML Rules   |  WinEventLog  |  - Sysmon 15.0        |   |
+|   |  - Alerting & Indexing|               |  - Invoke-AtomicRed   |   |
+|   +-----------------------+               +-----------------------+   |
++-----------------------------------------------------------------------+
+
+<!--![imag_alt](https://github.com/HFHamdan/Host-Based-IDS-Wazuh/blob/main/IDS_Arch.drawio.png) -->
 <!-- [ Devices/Nodes:
 Ubuntu VM box — labeled "Wazuh Manager"
 Windows 11 box — labeled "Monitored Endpoint (Wazuh Agent)"
