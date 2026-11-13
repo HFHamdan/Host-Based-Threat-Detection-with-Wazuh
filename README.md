@@ -68,6 +68,7 @@ VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 | T1082        | System Information Discovery                  | Discovery         |
 | T1112        | Modify Registry                               | Defense Evasion   |
 
+<!--
 ```bash
 ├── README.md                  <- Main project documentation & overview
 ├── config/                    <- Sysmon & Wazuh agent configuration files
@@ -82,4 +83,4 @@ VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
     ├── T1053_scheduled_task.md
     └── T1003_credential_dumping.md
 ```
-
+-->
