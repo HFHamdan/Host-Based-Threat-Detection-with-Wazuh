@@ -12,7 +12,7 @@ This project demonstrates end-to-end threat simulation, telemetry pipeline engin
 - VMware Workstation (bridge adapter)
 - Windows 11 as monitored endpoint
 - Atomic Red Team (see MITRE ATT&CK) 
-- Draw.io
+
 
 ## Lab Architecture 
 
@@ -68,5 +68,18 @@ VMware Workstation as the outer container/boundary around the Ubuntu VM ] -->
 | T1082        | System Information Discovery                  | Discovery         |
 | T1112        | Modify Registry                               | Defense Evasion   |
 
-
+```bash
+├── README.md                  <- Main project documentation & overview
+├── config/                    <- Sysmon & Wazuh agent configuration files
+│   ├── ossec.conf
+│   └── sysmonconfig.xml
+├── rules/                     <- Custom Wazuh XML detection rules
+│   └── local_rules.xml
+└── docs/                      <- Detailed technique writeups & walkthroughs
+    ├── T1082_discovery.md
+    ├── T1112_registry.md
+    ├── T1059.001_powershell.md
+    ├── T1053_scheduled_task.md
+    └── T1003_credential_dumping.md
+```
 
